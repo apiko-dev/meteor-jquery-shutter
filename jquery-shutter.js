@@ -169,7 +169,7 @@ $.fn.tzShutter = function (options) {
 
             film.css('top', -frames.height * count - animation.offsetTop);
             count++;
-            Meteor,setTimeout(animate, 20);
+            Meteor.setTimeout(animate, 20);
           })();
         };
 
@@ -212,7 +212,7 @@ $.fn.tzShutter = function (options) {
           film.css('top', -frames.height * count - animation.offsetTop);
           count--;
 
-          Meteor,setTimeout(animate, 20);
+          Meteor.setTimeout(animate, 20);
         })();
       });
 
