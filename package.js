@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jss:jquery-shutter',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'Shutter Effect Portfolio with jQuery and Canvas',
   git: 'https://github.com/JSSolutions/meteor-jquery-shutter'
 });
